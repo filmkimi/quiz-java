@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class holiday {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("input days : ");
+        String day = sc.nextLine();
+        
+        if (day.toLowerCase().equals("Sunday") || day.toLowerCase().equals("Saterday")) {
+            System.out.println("Holiday");
+        }
+        else {
+            System.out.println("Working day");
+        }
+    }
+}
